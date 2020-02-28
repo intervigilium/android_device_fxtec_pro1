@@ -1,6 +1,18 @@
-* Figure out why our kernel won't boot.
-* Fix front camera.
-* Fix NFC.
-* Fix BT MAC.
-
-x Fix camera button.
+Fix BT MAC
+Fix WLAN MAC
+WLAN signal strength is wrong
+Replace QC perf stuff with Google power HAL
+Add schedutil scheduler to kernel
+Remove unnecessary ACDB files
+Build boot control HAL
+Build qti-telephony-common.jar
+Build vr.msm8998
+Build libOmxG711Enc
+Build vendor.qti.hardware.camera
+Build android.hardware.gnss@1.0-impl-qti
+Rename fingerprint.default prebuilt
+Build libeffectsconfig
+Build vendor.qti.hardware.wifi
+Build vendor.qti.hardware.wifi.hostapd
+Build vendor.qti.hardware.wifi.supplicant
+Enable SELinux
