@@ -5,7 +5,6 @@ Replace QC perf stuff with Google power HAL
 Add schedutil scheduler to kernel
 Build boot control HAL
 Build qti-telephony-common.jar
-Build vendor.qti.hardware.camera
 Build android.hardware.gnss@1.0-impl-qti
 Rename fingerprint.default prebuilt
 Build vendor.qti.hardware.wifi
