@@ -10,7 +10,6 @@ Build libOmxG711Enc
 Build vendor.qti.hardware.camera
 Build android.hardware.gnss@1.0-impl-qti
 Rename fingerprint.default prebuilt
-Build libeffectsconfig
 Build vendor.qti.hardware.wifi
 Build vendor.qti.hardware.wifi.hostapd
 Build vendor.qti.hardware.wifi.supplicant
