@@ -8,4 +8,5 @@ Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
 Rename fingerprint.default prebuilt
 Doze wave option does not work
+WLAN hotspot does not work
 Enable SELinux
