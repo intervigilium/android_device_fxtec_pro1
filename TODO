@@ -3,7 +3,6 @@ Fix WLAN MAC
 WLAN signal strength is wrong
 Replace QC perf stuff with Google power HAL
 Add schedutil scheduler to kernel
-Build boot control HAL
 Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
 Rename fingerprint.default prebuilt
