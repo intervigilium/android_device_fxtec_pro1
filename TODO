@@ -11,4 +11,5 @@ Rename fingerprint.default prebuilt
 Build vendor.qti.hardware.wifi
 Build vendor.qti.hardware.wifi.hostapd
 Build vendor.qti.hardware.wifi.supplicant
+Doze wave option does not work
 Enable SELinux
