@@ -6,7 +6,6 @@ Add schedutil scheduler to kernel
 Build boot control HAL
 Build qti-telephony-common.jar
 Build vr.msm8998
-Build libOmxG711Enc
 Build vendor.qti.hardware.camera
 Build android.hardware.gnss@1.0-impl-qti
 Rename fingerprint.default prebuilt
