@@ -6,6 +6,7 @@ Add schedutil scheduler to kernel
 Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
 Rename fingerprint.default prebuilt
+Replace init.qseecom with wait_for_prop
 Doze wave option does not work
 WLAN hotspot does not work
 Enable SELinux
