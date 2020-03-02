@@ -8,6 +8,7 @@ Build android.hardware.gnss@1.0-impl-qti
 Rename fingerprint.default prebuilt
 Replace init.qseecom with wait_for_prop
 Add USB gadget HAL
+FM radio seems to crash
 Doze wave option does not work
 WLAN hotspot does not work
 Enable SELinux
