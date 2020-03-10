@@ -36,10 +36,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
-# FM Radio
-PRODUCT_PACKAGES += \
-    FMRadio
-
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapstartsize=16m \
@@ -220,6 +216,13 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.fxtec_msm8998 \
     fingerprintd \
     FxTecPocketMode
+
+# FM Radio
+PRODUCT_PACKAGES += \
+    FM2
+
+PRODUCT_BOOT_JARS += \
+    qcom.fmradio
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
