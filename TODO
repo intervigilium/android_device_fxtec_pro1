@@ -12,4 +12,5 @@ Remove all HBTP bits -- this device uses a Goodix touchscreen
 Delete extra vendor.audio-hal-2-0 service
 Doze wave option does not work
 WLAN hotspot does not work
+Off-mode charging is broken
 Enable SELinux
