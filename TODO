@@ -7,7 +7,6 @@ Add schedutil scheduler to kernel
 Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
 Add USB gadget HAL
-FM radio seems to crash
 Remove all HBTP bits -- this device uses a Goodix touchscreen
 Delete extra vendor.audio-hal-2-0 service
 Doze wave option does not work
