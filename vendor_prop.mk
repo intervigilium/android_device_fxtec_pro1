@@ -169,6 +169,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1
 
+# USB
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.usb.config=diag,serial_cdev,rmnet,adb \
+    persist.vendor.usb.config.extra=none \
+    vendor.usb.rps_mask=0
+
 # VNDK
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.vndk.version=28
