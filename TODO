@@ -12,7 +12,12 @@ Off-mode charging is broken
 Delete extra vendor.audio-hal-2-0 service
 Expand init scripts
 Prune non-existent init entries
+Duplicate vendor.audio-hal service entry
+Duplicate hostapd definition by hostapd_fst
 Add interface definitions to services hosting those interfaces
+Use correct vendor_prop.mk entries
 Remove QVR items
 Enable hvdcp_opti
 Enable SELinux
+Provide SELinux entries for livedisplay, trust
+Provide SELinux entries for init.btlfp.sh and init.radio.sh
