@@ -1,16 +1,19 @@
 Fix BT MAC
 Fix WLAN MAC
-WLAN signal strength is wrong
 Replace QC perf stuff with Google power HAL
 Replace thermal HAL with Linux thermal framework
 Add schedutil scheduler to kernel
 Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
 Add USB gadget HAL
-Delete extra vendor.audio-hal-2-0 service
 Doze wave option does not work
 WLAN hotspot does not work
 Off-mode charging is broken
+Delete extra vendor.audio-hal-2-0 service
 Expand init scripts
+Prune non-existent init entries
+Add interface definitions to services hosting those interfaces
 Move items in prebuilts folder to appropriate locations
+Remove QVR items
+Enable hvdcp_opti
 Enable SELinux
