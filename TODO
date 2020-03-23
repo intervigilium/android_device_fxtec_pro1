@@ -13,7 +13,6 @@ Delete extra vendor.audio-hal-2-0 service
 Expand init scripts
 Prune non-existent init entries
 Add interface definitions to services hosting those interfaces
-Move items in prebuilts folder to appropriate locations
 Remove QVR items
 Enable hvdcp_opti
 Enable SELinux
