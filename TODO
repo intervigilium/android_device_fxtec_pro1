@@ -5,7 +5,6 @@ Replace thermal HAL with Linux thermal framework
 Add schedutil scheduler to kernel
 Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
-Add USB gadget HAL
 Doze wave option does not work
 WLAN hotspot does not work
 Off-mode charging is broken
