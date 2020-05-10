@@ -8,7 +8,6 @@ Build android.hardware.gnss@1.0-impl-qti
 Doze wave option does not work
 WLAN hotspot does not work
 Off-mode charging is broken
-Add interface definitions to services hosting those interfaces
 Use correct vendor_prop.mk entries
 Remove QVR items
 Enable hvdcp_opti
