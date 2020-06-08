@@ -1,8 +1,6 @@
 Fix BT MAC
 Fix WLAN MAC
-Replace QC perf stuff with Google power HAL
 Replace thermal HAL with Linux thermal framework
-Add schedutil scheduler to kernel
 Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
 Doze wave option does not work
