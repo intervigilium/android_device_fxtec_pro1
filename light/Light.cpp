@@ -133,7 +133,6 @@ restart:
 
 Light::Light(std::pair<std::ofstream, uint32_t>&& lcd_backlight,
              std::pair<std::ofstream, uint32_t>&& keyboard_backlight,
-             std::vector<std::ofstream>&& button_backlight,
              std::ofstream&& red_led, std::ofstream&& green_led, std::ofstream&& blue_led,
              std::ofstream&& red_duty_pcts, std::ofstream&& green_duty_pcts, std::ofstream&& blue_duty_pcts,
              std::ofstream&& red_start_idx, std::ofstream&& green_start_idx, std::ofstream&& blue_start_idx,
@@ -143,7 +142,6 @@ Light::Light(std::pair<std::ofstream, uint32_t>&& lcd_backlight,
              std::ofstream&& red_blink, std::ofstream&& green_blink, std::ofstream&& blue_blink)
     : mLcdBacklight(std::move(lcd_backlight)),
       mKeyboardBacklight(std::move(keyboard_backlight)),
-      mButtonBacklight(std::move(button_backlight)),
       mRedLed(std::move(red_led)),
       mGreenLed(std::move(green_led)),
       mBlueLed(std::move(blue_led)),
@@ -249,14 +247,8 @@ void Light::setKeyboardBacklightLocked() {
     mKeyboardBacklight.first << mKeyboardBacklight.second << std::endl;
 }
 
-void Light::setButtonsBacklight(const LightState& state) {
-    std::lock_guard<std::mutex> lock(mLock);
-
-    uint32_t brightness = rgbToBrightness(state);
-
-    for (auto& button : mButtonBacklight) {
-        button << brightness << std::endl;
-    }
+void Light::setButtonsBacklight(const LightState&) {
+    // Device does not have button backlight
 }
 
 void Light::setBatteryLight(const LightState& state) {
