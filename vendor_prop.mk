@@ -73,19 +73,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.bluetooth.soc=cherokee \
     vendor.qcom.bluetooth.soc=cherokee
 
-# Cabl
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.qualcomm.cabl=0
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.camerakey.action=yes \
     persist.vendor.camera.HAL3.enabled=1
-
-# Core control
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.qti.core_ctl_min_cpu=2 \
-    ro.vendor.qti.core_ctl_max_cpu=4
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -139,15 +130,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # NFC
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.nfc_nci=nqx.default
-
-# Perf
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sys.fw.bg_apps_limit=60 \
-    ro.am.reschedule_service=true
-
-# QCOM
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.qcomsysd.enabled=1
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
