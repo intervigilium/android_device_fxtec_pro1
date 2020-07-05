@@ -8,6 +8,3 @@ WLAN hotspot does not work
 Off-mode charging is broken
 Use correct vendor_prop.mk entries
 Remove QVR items
-Enable SELinux
-Provide SELinux entries for livedisplay, trust
-Provide SELinux entries for init.btlfp.sh and init.radio.sh
