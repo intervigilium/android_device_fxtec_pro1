@@ -5,3 +5,4 @@ Build qti-telephony-common.jar
 Build android.hardware.gnss@1.0-impl-qti
 Doze wave option does not work
 Use correct vendor_prop.mk entries
+Add 1.1 thermal HAL
