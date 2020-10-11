@@ -392,6 +392,7 @@ framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
 framework/vendor.qti.hardware.data.latency-V1.0-java.jar
 framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
 framework/vendor.qti.latency-V2.0-java.jar
+-priv-app/CNEService/CNEService.apk
 vendor/bin/cnd
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
@@ -569,6 +570,7 @@ lib64/vendor.qti.gnss@1.1.so
 lib64/vendor.qti.gnss@2.0.so
 lib64/vendor.qti.gnss@2.1.so
 lib64/vendor.qti.gnss@1.0.so
+-priv-app/com.qualcomm.location/com.qualcomm.location.apk
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/slim_daemon
